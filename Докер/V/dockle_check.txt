@@ -1,0 +1,5 @@
+
+
+dockle -ak NGINX_GPGKEY -ak NGINX_GPGKEY_PATH server50:v1
+dockle -ak NGINX_GPGKEY -ak NGINX_GPGKEY_PATH nginx
+dockle --ignore CIS-DI-0010 server50:v1
